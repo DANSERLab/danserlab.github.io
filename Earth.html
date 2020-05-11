@@ -105,21 +105,25 @@
               </div>
 
               
-                    <h2 class="site-section-heading text-center">Robotics</h2>
-     
+<h2 class="site-section-heading text-center">Earth Science</h2>
+
+
      <table>
      <thead>
          <tr>
-         </p>Tebyani M., Robbins A., Asper W., Kurniawan S., Teodorescu M., Wang Z. & Hirai S. “3D Printing an Assembled Biomimetic Robotic Finger”. In International Conference on Ubiquitous Robots (UR). IEEE, (2020)
+         </p>Kaub, L., Seruge, C., Chopra, S. D., Glen, J. M., & Teodorescu, M. “Developing an Autonomous Unmanned Aerial System to Estimate Field Terrain Corrections for Gravity Measurements”: The Leading Edge, Society of Exploration Geophysicists, 37(8), 584591 (2018)
          <p>
          </tr>
      </thead><tbody><tr style="vertical-align:top">
      <td>
-         <small>Abstract—We present a novel approach for fabricating tendon-driven robotic systems. Particularly, we show that a biomimetic finger featuring accurate bone geometry, liga- ment structures, and visco-elastic tendons can be synthesized as a single part using a mutli-material printer. This fabri- cation method eliminates the need to construct an interface between the rigid skeletal structure and tendon system. The artificial muscle required to drive the printed tendons of the finger can also be printed in place. This lays the groundwork for a new robotics design approach, where the structural and actuation components are manufactured at the same time.
+         <small>Abstract— We have developed a method employing an autonomous unmanned aerial system (UAS) to provide a more robust measure of the field terrain correction (FTC) for gravity measurements than is offered by traditional methods. The resolution of digital terrain that is typically available for the United States (10 or 30 m) is too low to adequately estimate the FTC in steep terrain. The FTC corresponds to the innermost zone around the gravity station (e.g., extending to a 68 m radius for the Hayford-Bowie zones A and B) and is most often estimated in the field with the aid of templates and charts that approximate sectors of the terrain as uniform slopes. These techniques can incur significant error if they are not performed by experienced practitioners. In our approach, we dispatch a UAS to collect camera images around the gravity station, which we use to construct a digital elevation model (DEM) of the area with the structure from motion (SfM) method. The resulting DEMs allow us to precisely calculate the FTC. We have developed software to automate most of the procedure, including the autonomous flight and image capturing by the UAS. We have experimented with a variety of flight paths at several sites spanning a range of terrain conditions to determine the most efficient flight characteristics for this application. Selecting field sites with existing light detection and ranging data has enabled us to characterize errors in the DEMs derived from SfM and to assess the tradeoffs between flight time, processing time, and accuracy of the resulting FTCs. Our methodology is fast (flight time: 3–4 minutes) and robust, primarily because the UAS flight is automated. It can be used to calculate the FTC of a variety of terrain conditions and delivers results that are much more precise than existing methods that do not make use of high-resolution digital terrain data.
      </small></td>
      <td>
-         <h1 class="mb-0"><img src="images/C77_1.png" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
-         <small>Finger curling motion of the prototype actuated by pneumatic bellows. (Above) MuJoCo simulation and (Below) physical prototype testing. The two flexor tendons are pulled while the common extensor tendon is extended.</small>
+         <h1 class="mb-0"><img src="images/J36_3.pdf" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
+        <small>DJI Innovations Matrice 100 with Zenmuse X3 gimbal and camera flying at one of the test sites</small>
+         <h1 class="mb-0"><img src="images/J36_1.pdf" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
+         <h1 class="mb-0"><img src="images/J36_2.pdf" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
+         <small>(above) Screenshot of the AgiSoft PhotoScan processing screen. Blue patterns represent the camera positions, illustrating the flight path (Below) Example of a comparison of the 3D model from UAS against LiDAR data</small>
      </td>
      </table>
 <hr style="1px solid black;" />
@@ -127,30 +131,7 @@
 
 
 
-     <table>
-     <thead>
-         <tr>
-         </p>Spaeth A., Tebyani M., Haussler D. & Teodorescu M. “Neuromorphic closed-loop control of a flexible modular robot by a simulated spiking central pattern generator”. In IEEE Conference on Soft Robotics (RoboSoft). IEEE, (2020)
-         <p>
-         </tr>
-     </thead><tbody><tr style="vertical-align:top">
-     <td>
-         <small>Abstract—We propose a minimal yet highly biomimetic hierarchical controller based on a neuromorphic spiking central pattern generator (CPG) consisting of twelve simulated neurons modulated by sensory feedback. The robotic application of this controller is a flexible modular robot which uses 4 DC linear actuators to morph its structure and achieve a crawling gait. Additional behaviors, or adaption of the controller to a different flexible robotic configuration, can be achieved by additional independent “neural modules” consisting of spiking neurons.
-
-         <h1 class="mb-0"><img src="images/C76_3.pdf" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
-         The architecture of an individual bistable neural relaxation oscillator (left) and a network diagram of the full central pattern generator (right). In the individual oscillator modules, two excitatory neurons (blue and orange) are connected in positive feedback. An external excitatory input (left) can initiate the spiking state, or the local inhibitory interneuron (green) can be activated by another connection (not pictured) to bring the module back to its resting state. To construct the full CPG, these oscillators form a closed loop and are each associated with one flexor (F) and one extensor (E) among the 8 muscle cells which directly control the DC actuators.
-         </small>
-
-     </td>
-     <td>
-         <h1 class="mb-0"><img src="images/C76_1.pdf" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
-         <small></small>
-         
-         <h1 class="mb-0"><img src="images/C76_2.pdf" width="400" title="simulation vs experiment" alt="simulation vs experiment"></h1>
-         <small>The membrane voltage over time in each of the twelve cells in the network, once position feedback has been added to close the loop.
-         </small>
-     </td>
-     </table>
+   
 <hr style="1px solid black;" />
                        
       
